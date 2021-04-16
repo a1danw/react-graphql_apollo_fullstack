@@ -1,0 +1,13 @@
+npm i apollo-server graphql
+
+- Retrieving an individual animal/product
+. search through existing array and find the object we need to return
+. we need a unique identifier within each object for this - id or slug
+
+- Relationships between entities
+. category entity needs to map to a bunch of animal entities
+. when we click on a category we need to fetch one specific category
+. a category can hold many animals and each animal is linked to a particular animal
+. there is a clear relationship between the category and animal entity
+. many animals can belong to a particular category
+. only one animal can belong to a category
