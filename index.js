@@ -23,6 +23,8 @@ const server = new ApolloServer({
     animals,
     categories,
   },
+  introspection: true,
+  playground: true,
 });
 
 // // The `listen` method launches a web server.
